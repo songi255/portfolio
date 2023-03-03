@@ -1,0 +1,295 @@
+{
+    "navbar": {
+        "btn_translate": "한국어"
+    },
+    "about_section": {
+        "greeting": "Hi! I'm Dave Shin",
+        "introduce": "A Junior Web Developer",
+        "details": [
+            "After encountering Google Docs and Figma, I jumped into web development.\nMy goal is to ensure that people's ideas don't just remain in the imagination.",
+            "While I am interested in server-side development, I also use tools such as \nFigma, React, and Sass for smooth communication and prototyping.",
+            "I am not hesitant to study and delve into new things to solve problems.\nI always keep an eye on the latest trends through Medium."
+        ]
+    },
+    "skills_section": {
+        "language": [
+            {
+                "name": "Java",
+                "img": "Java_logo.png",
+                "title": "Main Language",
+                "detail": "`This is Java`\nMultiThread, Stream,\nReflection, JavaFX,\nIO/NIO(socket)\nOOP & Patterns",
+                "link": "https://github.com/songi255/Java-Study/tree/master/src/java/basic",
+                "confidence": 0.8
+            },
+            {
+                "name": "JavaScript",
+                "img": "JS_logo.png",
+                "title": "DeepDived",
+                "detail": "`JavaSript DeepDive`\n\nLittle experience but\nno problem utilizing.",
+                "link": "https://github.com/songi255/WebFront-Study/tree/master/JavaScript",
+                "confidence": 0.7
+            },
+            {
+                "name": "C",
+                "img": "C_logo.png",
+                "title": "First Language",
+                "detail": "`C programming`\n`C power upgrade`\n`Data Structures`\n\nvery familiar language.",
+                "link": "",
+                "confidence": 0.7
+            },
+            {
+                "name": "C++",
+                "img": "CPP_logo.png",
+                "title": "Interested",
+                "detail": "`SSAFY basic lecture`\n\nSamsung Software\nability test A+",
+                "link": "",
+                "confidence": 0.6
+            },
+            {
+                "name": "Python",
+                "img": "Python_logo.png",
+                "title": "Comfortable",
+                "detail": "`Do-it python`\n\nI haven't gone deep into it but no problem utilizing.",
+                "link": "",
+                "confidence": 0.7
+            }
+        ],
+        "front": [
+            {
+                "name": "React",
+                "img": "React_logo.png",
+                "title": "Main Framework",
+                "detail": "`React docs + beta`\nThis page is made with react.\nLittle experience but studied depply.\n",
+                "link": "https://github.com/songi255/WebFront-Study/tree/master/React/study/src",
+                "confidence": 0.7
+            },
+            {
+                "name": "Vue.js",
+                "img": "Vue_logo.png",
+                "title": "Possible Using",
+                "detail": "`SSAFY basic lecture`\nexperienced vuex, router...etc\nComfortable to use cause it's simple.",
+                "link": "https://github.com/songi255/WebFront-Study/tree/master/CLASS/vue",
+                "confidence": 0.5
+            },
+            {
+                "name": "Sass",
+                "img": "Sass_logo.png",
+                "title": "On Studying",
+                "detail": "`Official Document`\nThis page is made with Sass.\nNot skilled in structuring.",
+                "link": "https://github.com/songi255/WebFront-Study/tree/master/CSS3",
+                "confidence": 0.5
+            },
+            {
+                "name": "Figma",
+                "img": "Figma_logo.svg",
+                "title": "Possible Using",
+                "detail": "This page is prototyped with Figma.\nLittle experience with Plugins, Widgets.",
+                "link": "https://www.figma.com/file/SzXOtQpAUE26yT0DKd6UZ6/portfolio?node-id=0%3A1&t=70hlUoSVyp3JTYax-1",
+                "confidence": 0.5
+            }
+        ],
+        "back": [
+            {
+                "name": "Servlet / JSP",
+                "img": "JSP_logo.png",
+                "title": "Basic",
+                "detail": "`JSP web programm...`\nStudied developement process of Spring.\nQuit Studying after @Tag, jstl.",
+                "link": "https://github.com/songi255/JSP-Study",
+                "confidence": 0.4
+            },
+            {
+                "name": "Spring",
+                "img": "Spring_logo.png",
+                "title": "Fundamental",
+                "detail": "`Spring5 programin...`\nDI,AOP,Template,MVC,\nCommand,Validator,\nSession,Servlet,Maven",
+                "link": "https://github.com/songi255/Spring-MVC-Study",
+                "confidence": 0.6
+            },
+            {
+                "name": "Spring Boot",
+                "img": "SpringBoot_logo.png",
+                "title": "Main Framework",
+                "detail": "`SpringBoot & AWS...`\nTest,JPA,Mustache,\nOAuth2,AWS,Nginx\nTravisCI/AWS deploy...\nNeed more Experience.",
+                "link": "https://github.com/songi255/SpringBoot-Study",
+                "confidence": 0.6
+            },
+            {
+                "name": "Spring Webflux",
+                "img": "Webflux_logo.png",
+                "title": "Main Framework",
+                "detail": "`Learning SpringBoot`\nrepositoty,docker,\ntest,actuator,RestDoc,\nMQ, Security...\nusing in ongoing project.",
+                "link": "https://github.com/songi255/WebFluxStudy",
+                "confidence": 0.7
+            },
+            {
+                "name": "Node.js",
+                "img": "Nodejs_logo.png",
+                "title": "Observing",
+                "detail": "`SSAFY basic lecture`\nexpress,axios,multer,\nlogging,crawling...\nComfortable Using cause it's simple",
+                "link": "https://github.com/songi255/WebFront-Study/tree/master/CLASS/node.js",
+                "confidence": 0.6
+            }
+        ],
+        "dev_ops": [
+            {
+                "name": "Git",
+                "img": "Git_logo.png",
+                "title": "Basic Usage",
+                "detail": "I know the concepts of pull request, branch, etc...\nbut haven't tried using them.",
+                "link": "",
+                "confidence": 0.4
+            },
+            {
+                "name": "GitHub",
+                "img": "GitHub_logo.png",
+                "title": "Basic Usage",
+                "detail": "Not experienced with functions like 'issue'.\nPlanning to introduce 'Git Action' to the ongoing project.",
+                "link": "https://github.com/songi255",
+                "confidence": 0.5
+            },
+            {
+                "name": "AWS",
+                "img": "AWS_logo.svg",
+                "title": "Observing",
+                "detail": "I know comcept of\nEC2,RDS,S3,Route53,\nAPI Gateway,Cognito,\nLambda,CloudFront...\nNeed experiment.",
+                "link": "",
+                "confidence": 0.4
+            },
+            {
+                "name": "Docker",
+                "img": "Docker_logo.png",
+                "title": "Significant Need",
+                "detail": "Haven't studied deeply but feel strong need for it.\nplanning to use it for dev DB in ongoing project.",
+                "link": "",
+                "confidence": 0.2
+            },
+            {
+                "name": "Nginx",
+                "img": "Nginx_logo.png",
+                "title": "Basic Usage",
+                "detail": "server,Loadbalancer,\nreverse proxy...etc.\nExperienced\nzero-downtime deployment.",
+                "link": "",
+                "confidence": 0.2
+            },
+            {
+                "name": "CI/CD",
+                "img": "CICD_logo.png",
+                "title": "Basic Usage",
+                "detail": "Experienced sample Travis CI / AWS deploy\nNot Experienced Jenkins.\nPlanning to use Git Action.",
+                "link": "https://github.com/songi255/SpringBoot-Study/tree/master/scripts",
+                "confidence": 0.3
+            }
+        ],
+        "etc": [
+            {
+                "name": "Linux",
+                "img": "Ubuntu_logo.png",
+                "title": "Basic Usage",
+                "detail": "`SSAFY basic lecture`\nShell, Kernel, Signal...\nNo significant issue with working in a Linux environment.",
+                "link": "",
+                "confidence": 0.6
+            },
+            {
+                "name": "MySQL",
+                "img": "Mysql_logo.png",
+                "title": "Main DB",
+                "detail": "`This is MySQL`\nview, cursor, trigger...\narchitecture, normalization.\nCertified with SQLD.",
+                "link": "",
+                "confidence": 0.8
+            },
+            {
+                "name": "Neo4j",
+                "img": "Neo4j_logo.svg",
+                "title": "On Studying",
+                "detail": "`Official Document`\nBasic modeling, Query\n\nCurrently using it in ongoing project.",
+                "link": "",
+                "confidence": 0.4
+            },
+            {
+                "name": "Excel / VBA",
+                "img": "Excel_logo.png",
+                "title": "Administrative Clerk in Army",
+                "detail": "Made othello, 2048, MineSweeper in secret\n\nHave related Certification.",
+                "link": "",
+                "confidence": 0.8
+            },
+            {
+                "name": "IoT",
+                "img": "RaspberryPi_logo.png",
+                "title": "Possible Apply",
+                "detail": "`SSAFY Embedded`\nraspi,renesas,STM,ESP32\nI2C/SPI/UART\ndatasheet,memorymap\nMQTT, Node-RED",
+                "link": "",
+                "confidence": 0.7
+            }
+        ]
+    },
+    "details_section": {
+        "certificates": [
+            {
+                "name": "Engineer Information Processing (2022)",
+                "publisher": "Human Resources Development Service of Korea."
+            },
+            {
+                "name": "SQL Developer (2020)",
+                "publisher": "Korea Data Agency"
+            },
+            {
+                "name": "Computer Specialist in \nSpreadsheet & Database (2019)",
+                "publisher": "Korea Chamber of Commerce and Industry"
+            }
+        ],
+        "awards": [
+            {
+                "name": "Academic Excellence Award for the SSAFY 1st semester (2023)",
+                "publisher": "Samsung Software Academy For Youth (SSAFY)"
+            },
+            {
+                "name": "Creative Award in Army Startup Competition (2022)",
+                "publisher": "Republic of Korea Army"
+            },
+            {
+                "name": "Excellent student of government-funded education (2020)",
+                "publisher": "JungAng vacational school"
+            }
+        ],
+        "education": [
+            {
+                "period": "2022 - NOW",
+                "title": "Completed the 1st semester of SSAFY",
+                "detail": "Excellent Student of Embedded Track\n - Web: Vue.js, AWS, Node.js(express)\n - IoT: Boards, Linux, MQTT\n - Algorithm: Samsung Sofeware ability test A+"
+            },
+            {
+                "period": "2020 - 2022",
+                "title": "Complete Bachelor's Degree in Computer Science (Self-Education) & Army Startup Competition",
+                "detail": "Studied JavaScript, Spring\nObtained Information Processing Engineer certification & bachelor's degree\nAdvanced to the final round of the Army Entrepreneurship Contest."
+            },
+            {
+                "period": "2019 - 2020",
+                "title": "Goverment-funded education for Java",
+                "detail": "Learned Java, MySQL, Basic Servlet / JSP\nObtained SQL Developer, Computer Specialist in \nSpreadsheet & Database Certifications"
+            },
+            {
+                "period": "2017 - 2017",
+                "title": "Department of Physics, Kyung Hee University",
+                "detail": "Entered in programming with C, Data Structure"
+            }
+        ],
+        "projects": [
+            {
+                "title": "JavaFX / NIO socket\nMultiplayer Game",
+                "img": "java_game.gif",
+                "link": "https://github.com/songi255/JavaSinglePlatformer"
+            },
+            {
+                "title": "Pointer\n( Video indexing\nweb service )\nOn Processing...",
+                "img": "pointer_logo.png",
+                "link": ""
+            },
+            {
+                "title": "Please Be the Next!",
+                "img": "add.png",
+                "link": ""
+            }
+        ]
+    }
+}

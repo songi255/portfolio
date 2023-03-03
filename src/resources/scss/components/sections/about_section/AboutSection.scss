@@ -1,0 +1,129 @@
+#about_section {
+  > span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+// FIXME!! common 으로 뺴기!
+@keyframes fade-in {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.text-content {
+  > * {
+    white-space: pre-line;
+    //animation: fade-in 1s ease 0s;
+  }
+
+  > h1 {
+    font-size: 4em;
+    font-weight: 400;
+    animation: fade-in 1s ease 0s;
+  }
+
+  > h2 {
+    font-size: 3em;
+    font-weight: 300;
+    animation: fade-in 1.5s ease 0s;
+  }
+
+  > p {
+    font-size: 1.5em;
+    font-weight: 300;
+    animation: fade-in 2s ease 0s;
+  }
+}
+
+.cube-content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes rot {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+
+  25% {
+    transform: rotateX(360deg) rotateY(180deg) rotateZ(90deg);
+  }
+
+  50% {
+    transform: rotateX(720deg) rotateY(360deg) rotateZ(180deg);
+  }
+
+  75% {
+    transform: rotateX(1080deg) rotateY(540deg) rotateZ(270deg);
+  }
+  100% {
+    transform: rotateX(1440deg) rotateY(720deg) rotateZ(360deg);
+  }
+}
+
+$cube-size: 300px;
+$var-ratio: 0.6;
+
+.cube-parent {
+  width: $cube-size;
+  height: $cube-size;
+  position: relative;
+
+  animation: rot 10s linear 0s infinite;
+  transform-style: preserve-3d; // 자손 속성 유지한 채로 변형
+}
+
+.cube {
+  width: $cube-size;
+  height: $cube-size;
+
+  //border-radius: 150px;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 1;
+
+  backface-visibility: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#cube {
+  &1 {
+    transform: rotateY(0deg) translate3d(0px, 0px, $cube-size * $var-ratio);
+    background-image: url(../../../../icons/Spring_logo.png);
+  }
+  &2 {
+    transform: rotateY(90deg) translate3d(0px, 0px, $cube-size * $var-ratio);
+    background-image: url(../../../../icons/React_logo.png);
+  }
+  &3 {
+    transform: rotateY(180deg) translate3d(0px, 0px, $cube-size * $var-ratio);
+    background-image: url(../../../../icons/Figma_logo.svg);
+  }
+  &4 {
+    transform: rotateY(270deg) translate3d(0px, 0px, $cube-size * $var-ratio);
+    background-image: url(../../../../icons/AWS_logo.svg);
+  }
+  // top, bottom
+  &5 {
+    transform: rotateX(90deg) translate3d(0px, 0px, $cube-size * $var-ratio);
+    background-image: url(../../../../icons/Java_logo.png);
+  }
+  &6 {
+    transform: rotateX(270deg) translate3d(0px, 0px, $cube-size * $var-ratio);
+    background-image: url(../../../../icons/Mysql_logo.png);
+  }
+}

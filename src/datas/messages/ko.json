@@ -1,0 +1,295 @@
+{
+    "navbar": {
+        "btn_translate": "EN"
+    },
+    "about_section": {
+        "greeting": "안녕하세요",
+        "introduce": "신입 웹 개발자 신효재입니다",
+        "details": [
+            "Google Docs, Figma 를 접한 후 Web 에 뛰어들게 되었습니다.\n아이디어가 상상속에만 남지 않도록 하는 것이 목표입니다.",
+            "서버에 관심이 많지만, 원활한 의사소통과 프로토타이핑을 위해\nFigma, React, Sass 등의 기술도 사용합니다.",
+            "문제해결을 위해 새로운 것을 공부하고 파고드는 것을 주저하지 않습니다.\nMedium 을 통해 항상 최신동향을 주시하고 있습니다."
+        ]
+    },
+    "skills_section": {
+        "language": [
+            {
+                "name": "Java",
+                "img": "Java_logo.png",
+                "title": "주력언어",
+                "detail": "`이것이 자바다`\nMultiThread, Stream,\nReflection, JavaFX,\nIO/NIO(socket)\nOOP & Patterns",
+                "link": "https://github.com/songi255/Java-Study/tree/master/src/java/basic",
+                "confidence": 0.8
+            },
+            {
+                "name": "JavaScript",
+                "img": "JS_logo.png",
+                "title": "깊게 공부한 언어",
+                "detail": "`JavaSript DeepDive`\n경험은 적으나\n활용에 문제없음\n\n정리내용 첨부",
+                "link": "https://github.com/songi255/WebFront-Study/tree/master/JavaScript",
+                "confidence": 0.7
+            },
+            {
+                "name": "C",
+                "img": "C_logo.png",
+                "title": "처음 학습한 언어",
+                "detail": "`윤성우 열혈 C 프로...`\n`윤성우 C 파워 업그...`\n`윤성우 열혈자료구조`\n\n매우 친숙한 언어",
+                "link": "",
+                "confidence": 0.7
+            },
+            {
+                "name": "C++",
+                "img": "CPP_logo.png",
+                "title": "관심가는 언어",
+                "detail": "`SSAFY 기초강의수강`\n\n삼성SW역량테스트 A+ 취득 (DP 수준)",
+                "link": "",
+                "confidence": 0.6
+            },
+            {
+                "name": "Python",
+                "img": "Python_logo.png",
+                "title": "편하게 활용가능",
+                "detail": "`Do-it 파이썬`\n\nDeepdive 하지는 않았으나, 문제없이 활용가능",
+                "link": "",
+                "confidence": 0.7
+            }
+        ],
+        "front": [
+            {
+                "name": "React",
+                "img": "React_logo.png",
+                "title": "주력 프레임워크",
+                "detail": "`React docs + beta`\n\n현재 포트폴리오 제작\n경험은 부족하나\n깊게 공부한 기술\n",
+                "link": "https://github.com/songi255/WebFront-Study/tree/master/React/study/src",
+                "confidence": 0.7
+            },
+            {
+                "name": "Vue.js",
+                "img": "Vue_logo.png",
+                "title": "사용가능",
+                "detail": "`SSAFY 기초강의수강`\n\nvuex, router 등 경험\n문법이 쉬워 편하게\n사용가능",
+                "link": "https://github.com/songi255/WebFront-Study/tree/master/CLASS/vue",
+                "confidence": 0.5
+            },
+            {
+                "name": "Sass",
+                "img": "Sass_logo.png",
+                "title": "CSS에 추가중",
+                "detail": "`공식문서 학습중`\n\n현재 포트폴리오 제작에 사용한 기술\n구조화 미숙함",
+                "link": "https://github.com/songi255/WebFront-Study/tree/master/CSS3",
+                "confidence": 0.5
+            },
+            {
+                "name": "Figma",
+                "img": "Figma_logo.svg",
+                "title": "사용가능",
+                "detail": "현재 포트폴리오 제작에 사용\n\nPlugin, Widget 사용은\n경험이 적음",
+                "link": "https://www.figma.com/file/SzXOtQpAUE26yT0DKd6UZ6/portfolio?node-id=0%3A1&t=70hlUoSVyp3JTYax-1",
+                "confidence": 0.5
+            }
+        ],
+        "back": [
+            {
+                "name": "Servlet / JSP",
+                "img": "JSP_logo.png",
+                "title": "기초학습",
+                "detail": "`JSP web 프로그래밍`\n\nSpring 발전과정 학습\n@Tag, jstl 이후 \n학습중단",
+                "link": "https://github.com/songi255/JSP-Study",
+                "confidence": 0.4
+            },
+            {
+                "name": "Spring",
+                "img": "Spring_logo.png",
+                "title": "기반기술 학습",
+                "detail": "`Spring5 프로그래밍...`\nDI,AOP,Template,MVC,\nCommand,Validator,\nSession,Servlet,Maven\n등의 기반학습",
+                "link": "https://github.com/songi255/Spring-MVC-Study",
+                "confidence": 0.6
+            },
+            {
+                "name": "Spring Boot",
+                "img": "SpringBoot_logo.png",
+                "title": "주력 프레임워크",
+                "detail": "`스프링부트와 AWS...`\nTest,JPA,Mustache,\nOAuth2,AWS,Nginx\nTravisCI/AWS deploy...\n실전경험 필요",
+                "link": "https://github.com/songi255/SpringBoot-Study",
+                "confidence": 0.6
+            },
+            {
+                "name": "Spring Webflux",
+                "img": "Webflux_logo.png",
+                "title": "주력 프레임워크",
+                "detail": "`스프링부트 실전 활...`\nrepositoty,docker,\ntest,actuator,RestDoc,\nMQ, Security...\n프로젝트 사용중",
+                "link": "https://github.com/songi255/WebFluxStudy",
+                "confidence": 0.7
+            },
+            {
+                "name": "Node.js",
+                "img": "Nodejs_logo.png",
+                "title": "주시하는 기술",
+                "detail": "`SSAFY 기초강의수강`\n\nexpress,axios,multer,\nlogging,crawling...\n간편활용가능",
+                "link": "https://github.com/songi255/WebFront-Study/tree/master/CLASS/node.js",
+                "confidence": 0.6
+            }
+        ],
+        "dev_ops": [
+            {
+                "name": "Git",
+                "img": "Git_logo.png",
+                "title": "기초학습",
+                "detail": "pull request,branch 등\n개념은 알고있으나\n사용해보지 않음\n",
+                "link": "",
+                "confidence": 0.4
+            },
+            {
+                "name": "GitHub",
+                "img": "GitHub_logo.png",
+                "title": "기초 사용가능",
+                "detail": "issue 등의 경험없음\n\n진행중인 프로젝트에\nGit Action 도입예정",
+                "link": "https://github.com/songi255",
+                "confidence": 0.5
+            },
+            {
+                "name": "AWS",
+                "img": "AWS_logo.svg",
+                "title": "예의주시중",
+                "detail": "EC2,RDS,S3,Route53,\nAPI Gateway,Cognito,\nLambda,CloudFront 등\n개념숙지\nToy Project 실험예정",
+                "link": "",
+                "confidence": 0.4
+            },
+            {
+                "name": "Docker",
+                "img": "Docker_logo.png",
+                "title": "필요성 많이느낌",
+                "detail": "깊은 학습은 하지않음\n배포, Test, 개발에\n학습필요를 많이느낌\nNeo4j 개발용으로\n도입예정",
+                "link": "",
+                "confidence": 0.2
+            },
+            {
+                "name": "Nginx",
+                "img": "Nginx_logo.png",
+                "title": "개념숙지",
+                "detail": "정적서버,로드밸런싱,\n리버스프록시 등 활용\n방안 숙지\n무중단배포 구축경험",
+                "link": "",
+                "confidence": 0.2
+            },
+            {
+                "name": "CI/CD",
+                "img": "CICD_logo.png",
+                "title": "사용경험",
+                "detail": "Travis CI / AWS deploy\n구축예제 경험\n\nJenkins 미경험\nGit Action 도입예정",
+                "link": "https://github.com/songi255/SpringBoot-Study/tree/master/scripts",
+                "confidence": 0.3
+            }
+        ],
+        "etc": [
+            {
+                "name": "Linux",
+                "img": "Ubuntu_logo.png",
+                "title": "기본사용가능",
+                "detail": "`SSAFY 기초강의수강`\n\nShell, Kernel, Signal 등\nLinux 환경에서 작업에\n큰 무리 없음",
+                "link": "",
+                "confidence": 0.6
+            },
+            {
+                "name": "MySQL",
+                "img": "Mysql_logo.png",
+                "title": "주력 DB",
+                "detail": "`이것이 MySQL이다`\n\nview, cursor, trigger 등\n설계 및 정규화 가능\nSQLD 자격보유",
+                "link": "",
+                "confidence": 0.8
+            },
+            {
+                "name": "Neo4j",
+                "img": "Neo4j_logo.svg",
+                "title": "GraphDB 도입중",
+                "detail": "`공식문서 학습중`\n기본 모델링, Query\n\n진행중인 프로젝트에\n도입중",
+                "link": "",
+                "confidence": 0.4
+            },
+            {
+                "name": "Excel / VBA",
+                "img": "Excel_logo.png",
+                "title": "행정병 출신",
+                "detail": "`행보관님께 사랑받은\n비결`\n오델로,2048,지뢰찾기\n몰래제작\n컴활 1급 보유",
+                "link": "",
+                "confidence": 0.8
+            },
+            {
+                "name": "IoT",
+                "img": "RaspberryPi_logo.png",
+                "title": "활용가능",
+                "detail": "`SSAFY Embedded`\nraspi,renesas,STM,ESP32\nI2C/SPI/UART 경험\ndatasheet,memorymap\nMQTT, Node-RED",
+                "link": "",
+                "confidence": 0.7
+            }
+        ]
+    },
+    "details_section": {
+        "certificates": [
+            {
+                "name": "정보처리기사  (2022)",
+                "publisher": "한국산업인력공단"
+            },
+            {
+                "name": "SQLD (2020)",
+                "publisher": "한국데이터산업진흥원"
+            },
+            {
+                "name": "컴퓨터 활용능력 1급 (2019)",
+                "publisher": "대한상공회의소"
+            }
+        ],
+        "awards": [
+            {
+                "name": "SSAFY 1학기 성적우수 (2023)",
+                "publisher": "삼성 청년 SW 아카데미(SSAFY)"
+            },
+            {
+                "name": "육군창업경진대회 창의상 (2022)",
+                "publisher": "대한민국육군"
+            },
+            {
+                "name": "국비교육 우수교육생 (2020)",
+                "publisher": "중앙직업전문학교"
+            }
+        ],
+        "education": [
+            {
+                "period": "2022 - NOW",
+                "title": "삼성 청년 SW 아카데미 (SSAFY) 1학기 수료",
+                "detail": "Embedded Track 우수교육생\n - Web: Vue.js, AWS, Node.js(express)\n - IoT: Boards, Linux, MQTT\n - Algorithm: 삼성 SW 역량테스트 A+"
+            },
+            {
+                "period": "2020 - 2022",
+                "title": "독학사 컴퓨터공학 & 육군창업경진대회",
+                "detail": "JavaScript, Spring 학습\n학위 및 정보처리기사 취득\n육군창업경진대회 본선진출(Pointer)"
+            },
+            {
+                "period": "2019 - 2020",
+                "title": "Java 국비교육 수강",
+                "detail": "Java, MySQL, Servlet / JSP 기초 학습\nSQLD, 컴퓨터 활용능력 취득"
+            },
+            {
+                "period": "2017 - 2017",
+                "title": "경희대학교 물리학과",
+                "detail": "프로그래밍 입문 (윤성우 C / 자료구조)"
+            }
+        ],
+        "projects": [
+            {
+                "title": "JavaFX / NIO socket\nMultiplayer Game",
+                "img": "java_game.gif",
+                "link": "https://github.com/songi255/JavaSinglePlatformer"
+            },
+            {
+                "title": "Pointer\n( Video indexing\nweb service )\n제작중...",
+                "img": "pointer_logo.png",
+                "link": ""
+            },
+            {
+                "title": "다음이\n되어주세요!",
+                "img": "add.png",
+                "link": ""
+            }
+        ]
+    }
+}
