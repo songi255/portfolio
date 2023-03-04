@@ -15,8 +15,8 @@ install gh-pages: `npm i gh-pages --save-dev`
 add followings to package.json
 
 - add scripts: `"deploy": "gh-pages -d build"`
-- add "homepage" at the top level: `"homepage": "https://{yourId}.github.io/"`
+- add "homepage" at the top level: `"homepage": "https://{yourId}.github.io/{yourRepositoryName}"`
 
-run `npm run deploy` then it'll run build, make new branch `gh-pages`, and deploy to github.
+run `npm run build` and `npm run deploy` then it'll make new branch `gh-pages`, and deploy build folder to github.
 
 more settings in repository settings - page
