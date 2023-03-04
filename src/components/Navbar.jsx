@@ -9,7 +9,7 @@ function Navbar({ onChangeLocale }) {
   const msg = useMessage();
 
   function onClickHome() {
-    //window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
   }
 
   return (
@@ -26,7 +26,7 @@ function Navbar({ onChangeLocale }) {
       </div>
       <div className="nav nav-right">
         <a
-          href="https://www.github.com/songi255"
+          href="https://github.com/songi255/portfolio/tree/master"
           target="_blank"
           rel="noopener noreferrer"
         >
