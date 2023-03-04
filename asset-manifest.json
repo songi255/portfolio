@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b3a85a2c.css",
-    "main.js": "/portfolio/static/js/main.9ae939f8.js",
-    "static/media/java_game.gif": "/portfolio/static/media/java_game.effdacc6a8587dbeacae.gif",
-    "static/media/Mysql_logo.png": "/portfolio/static/media/Mysql_logo.c29ad17234c1b0db0dce.png",
-    "static/media/Webflux_logo.png": "/portfolio/static/media/Webflux_logo.6cf4383f9462c00459c0.png",
-    "static/media/Docker_logo.png": "/portfolio/static/media/Docker_logo.4ec2c03c74257a9347e8.png",
-    "static/media/Python_logo.png": "/portfolio/static/media/Python_logo.c09db61fb4aeefe2faa9.png",
-    "static/media/RaspberryPi_logo.png": "/portfolio/static/media/RaspberryPi_logo.3187b6d01f6b96c84086.png",
-    "static/media/JSP_logo.png": "/portfolio/static/media/JSP_logo.1b6bc29fe27f03d2e330.png",
-    "static/media/React_logo.png": "/portfolio/static/media/React_logo.e6d777be10b72e673666.png",
-    "static/media/Sass_logo.png": "/portfolio/static/media/Sass_logo.fcdd5bd41c20453784df.png",
-    "static/media/Ubuntu_logo.png": "/portfolio/static/media/Ubuntu_logo.70a3abd56670af3235f7.png",
-    "static/media/Spring_logo.png": "/portfolio/static/media/Spring_logo.92302ca222a508abd7b4.png",
-    "static/media/Java_logo.png": "/portfolio/static/media/Java_logo.66a5902fabcce6a9863b.png",
-    "static/media/Neo4j_logo.svg": "/portfolio/static/media/Neo4j_logo.bff0ff15bdc13615157e.svg",
-    "static/media/AWS_logo.svg": "/portfolio/static/media/AWS_logo.cc38dbe9487d55943d42.svg",
-    "static/media/Figma_logo.svg": "/portfolio/static/media/Figma_logo.0f4098dccb2a84e24331.svg",
-    "index.html": "/portfolio/index.html",
-    "static/media/arrow.svg": "/portfolio/static/media/arrow.6f59bf055b57a5ee1e834e68040da16b.svg",
-    "main.b3a85a2c.css.map": "/portfolio/static/css/main.b3a85a2c.css.map",
-    "main.9ae939f8.js.map": "/portfolio/static/js/main.9ae939f8.js.map"
+    "main.css": "/static/css/main.989f2554.css",
+    "main.js": "/static/js/main.06bf1122.js",
+    "static/media/java_game.gif": "/static/media/java_game.effdacc6a8587dbeacae.gif",
+    "static/media/Mysql_logo.png": "/static/media/Mysql_logo.c29ad17234c1b0db0dce.png",
+    "static/media/Webflux_logo.png": "/static/media/Webflux_logo.6cf4383f9462c00459c0.png",
+    "static/media/Docker_logo.png": "/static/media/Docker_logo.4ec2c03c74257a9347e8.png",
+    "static/media/Python_logo.png": "/static/media/Python_logo.c09db61fb4aeefe2faa9.png",
+    "static/media/RaspberryPi_logo.png": "/static/media/RaspberryPi_logo.3187b6d01f6b96c84086.png",
+    "static/media/JSP_logo.png": "/static/media/JSP_logo.1b6bc29fe27f03d2e330.png",
+    "static/media/React_logo.png": "/static/media/React_logo.e6d777be10b72e673666.png",
+    "static/media/Sass_logo.png": "/static/media/Sass_logo.fcdd5bd41c20453784df.png",
+    "static/media/Ubuntu_logo.png": "/static/media/Ubuntu_logo.70a3abd56670af3235f7.png",
+    "static/media/Spring_logo.png": "/static/media/Spring_logo.92302ca222a508abd7b4.png",
+    "static/media/Java_logo.png": "/static/media/Java_logo.66a5902fabcce6a9863b.png",
+    "static/media/Neo4j_logo.svg": "/static/media/Neo4j_logo.bff0ff15bdc13615157e.svg",
+    "static/media/AWS_logo.svg": "/static/media/AWS_logo.cc38dbe9487d55943d42.svg",
+    "static/media/Figma_logo.svg": "/static/media/Figma_logo.0f4098dccb2a84e24331.svg",
+    "index.html": "/index.html",
+    "static/media/arrow.svg": "/static/media/arrow.6f59bf055b57a5ee1e834e68040da16b.svg",
+    "main.989f2554.css.map": "/static/css/main.989f2554.css.map",
+    "main.06bf1122.js.map": "/static/js/main.06bf1122.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3a85a2c.css",
-    "static/js/main.9ae939f8.js"
+    "static/css/main.989f2554.css",
+    "static/js/main.06bf1122.js"
   ]
 }
