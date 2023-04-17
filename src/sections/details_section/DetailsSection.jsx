@@ -1,8 +1,8 @@
 import React, { forwardRef, Fragment } from "react";
 
-import { useMessage } from "../../../hooks/useMessage.js";
+import { useMessage } from "../../hooks/useMessage.js";
 
-import "../../../resources/css/components/sections/details_section/DetailsSection.css";
+import "./DetailsSection.scss";
 import ProjectCard from "./ProjectCard.jsx";
 
 const DetailsSection = forwardRef((props, ref) => {

@@ -103,27 +103,27 @@ $var-ratio: 0.6;
 #cube {
   &1 {
     transform: rotateY(0deg) translate3d(0px, 0px, $cube-size * $var-ratio);
-    background-image: url(../../../../icons/Spring_logo.png);
+    background-image: url(../../resources/icons/Spring_logo.png);
   }
   &2 {
     transform: rotateY(90deg) translate3d(0px, 0px, $cube-size * $var-ratio);
-    background-image: url(../../../../icons/React_logo.png);
+    background-image: url(../../resources/icons/React_logo.png);
   }
   &3 {
     transform: rotateY(180deg) translate3d(0px, 0px, $cube-size * $var-ratio);
-    background-image: url(../../../../icons/Figma_logo.svg);
+    background-image: url(../../resources/icons/Figma_logo.svg);
   }
   &4 {
     transform: rotateY(270deg) translate3d(0px, 0px, $cube-size * $var-ratio);
-    background-image: url(../../../../icons/AWS_logo.svg);
+    background-image: url(../../resources/icons/AWS_logo.svg);
   }
   // top, bottom
   &5 {
     transform: rotateX(90deg) translate3d(0px, 0px, $cube-size * $var-ratio);
-    background-image: url(../../../../icons/Java_logo.png);
+    background-image: url(../../resources/icons/Java_logo.png);
   }
   &6 {
     transform: rotateX(270deg) translate3d(0px, 0px, $cube-size * $var-ratio);
-    background-image: url(../../../../icons/Mysql_logo.png);
+    background-image: url(../../resources/icons/Mysql_logo.png);
   }
 }

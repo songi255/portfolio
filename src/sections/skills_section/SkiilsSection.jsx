@@ -1,6 +1,6 @@
 import React, { forwardRef } from "react";
 
-import "../../../resources/css/components/sections/skills_section/SkillsSection.css";
+import "./SkillsSection.scss";
 import CardContainer from "./CardContainer.jsx";
 
 const SkillsSection = forwardRef((props, ref) => {

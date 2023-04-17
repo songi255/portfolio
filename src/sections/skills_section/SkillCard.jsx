@@ -1,7 +1,7 @@
 import React from "react";
 
-import linkIcon from "../../../resources/images/arrow.svg";
-import "../../../resources/css/components/sections/skills_section/SkillCard.css";
+import linkIcon from "../../resources/images/arrow.svg";
+import "./SkillCard.scss";
 
 function SkillCard({ cardData }) {
   return (
@@ -17,7 +17,7 @@ function SkillCard({ cardData }) {
       <div className="card-content">
         <div className="card-image">
           <img
-            src={require(`../../../resources/icons/${cardData.img}`)}
+            src={require(`../../resources/icons/${cardData.img}`)}
             alt="skill_image"
           />
         </div>

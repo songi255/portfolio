@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import "../resources/css/components/ScrollSpyBackground.css";
+import "./ScrollSpyBackground.scss";
 
 export default function ScrollSpyBackground({ sections }) {
   const [activeSection, setActiveSection] = useState("About");

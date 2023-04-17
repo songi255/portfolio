@@ -1,12 +1,12 @@
-import Navbar from "./components/Navbar";
-import AboutSection from "./components/sections/about_section/AboutSection";
-import SkillsSection from "./components/sections/skills_section/SkiilsSection";
-import DetailsSection from "./components/sections/details_section/DetailsSection";
-
-import "./resources/css/App.css";
-
-import { LocaleContext } from "./contexts/localeContext";
 import { useRef, useState } from "react";
+import { LocaleContext } from "./contexts/localeContext";
+
+import "./App.scss";
+
+import Navbar from "./components/Navbar";
+import AboutSection from "./sections/about_section/AboutSection";
+import SkillsSection from "./sections/skills_section/SkiilsSection";
+import DetailsSection from "./sections/details_section/DetailsSection";
 import ScrollIndicator from "./components/ScrollIndicator";
 import ScrollSpyBackground from "./components/ScrollSpyBackground";
 

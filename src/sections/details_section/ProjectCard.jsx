@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../../../resources/css/components/sections/details_section/ProjectCard.css";
+import "./ProjectCard.scss";
 
 export default function ProjectCard({ cardData }) {
   return (
@@ -9,7 +9,7 @@ export default function ProjectCard({ cardData }) {
     >
       <div className="card-project-img">
         <img
-          src={require(`../../../resources/images/${cardData.img}`)}
+          src={require(`../../resources/images/${cardData.img}`)}
           alt={`${cardData.title}`}
         />
       </div>

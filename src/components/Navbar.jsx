@@ -1,7 +1,7 @@
 import React from "react";
 import github_logo from "../resources/icons/GitHub_logo.png";
 
-import "../resources/css/components/Navbar.css";
+import "./Navbar.scss";
 
 import { useMessage } from "../hooks/useMessage.js";
 

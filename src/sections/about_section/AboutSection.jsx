@@ -1,7 +1,7 @@
 import React, { forwardRef } from "react";
-import { useMessage } from "../../../hooks/useMessage";
+import { useMessage } from "../../hooks/useMessage";
 
-import "../../../resources/css/components/sections/about_section/AboutSection.css";
+import "./AboutSection.scss";
 
 const AboutSection = forwardRef((props, ref) => {
   const msg = useMessage();

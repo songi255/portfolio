@@ -1,5 +1,5 @@
 import React from "react";
-import { useMessage } from "../../../hooks/useMessage";
+import { useMessage } from "../../hooks/useMessage";
 import SkillCard from "./SkillCard";
 
 function CardContainer({ category }) {
