@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b3a85a2c.css",
-    "main.js": "/portfolio/static/js/main.bc48961e.js",
+    "main.css": "/portfolio/static/css/main.f678abc7.css",
+    "main.js": "/portfolio/static/js/main.4bb4bfe6.js",
     "static/media/java_game.gif": "/portfolio/static/media/java_game.effdacc6a8587dbeacae.gif",
     "static/media/Mysql_logo.png": "/portfolio/static/media/Mysql_logo.c29ad17234c1b0db0dce.png",
     "static/media/Webflux_logo.png": "/portfolio/static/media/Webflux_logo.6cf4383f9462c00459c0.png",
@@ -19,11 +19,11 @@
     "static/media/Figma_logo.svg": "/portfolio/static/media/Figma_logo.0f4098dccb2a84e24331.svg",
     "index.html": "/portfolio/index.html",
     "static/media/arrow.svg": "/portfolio/static/media/arrow.6f59bf055b57a5ee1e834e68040da16b.svg",
-    "main.b3a85a2c.css.map": "/portfolio/static/css/main.b3a85a2c.css.map",
-    "main.bc48961e.js.map": "/portfolio/static/js/main.bc48961e.js.map"
+    "main.f678abc7.css.map": "/portfolio/static/css/main.f678abc7.css.map",
+    "main.4bb4bfe6.js.map": "/portfolio/static/js/main.4bb4bfe6.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3a85a2c.css",
-    "static/js/main.bc48961e.js"
+    "static/css/main.f678abc7.css",
+    "static/js/main.4bb4bfe6.js"
   ]
 }
